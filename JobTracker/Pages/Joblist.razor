@@ -1,0 +1,30 @@
+@namespace JobTracker.Pages
+@page "/jobs"
+@using JobTracker.Models
+@using JobTracker.Services
+@inject JobService JobService
+
+<h3>Job List</h3>
+
+@if (jobs == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var job in jobs)
+        {
+            <li>@job.Title - @job.Company</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Job> jobs = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        jobs = await JobService.GetJobsAsync();
+    }
+}

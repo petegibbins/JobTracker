@@ -1,0 +1,39 @@
+# Build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.app
+*.pdb
+*.cache
+*.log
+
+# Visual Studio/VSCode files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Dotnet stuff
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Node/npm if used for styling etc.
+node_modules/
+
+# Environment files
+*.env
+
+# Static asset compressions (if manually generated)
+wwwroot/**/*.gz
+wwwroot/**/*.br
+
+# Test logs and coverage
+TestResults/
+coverage/
+
+# OS junk
+.DS_Store
+Thumbs.db
