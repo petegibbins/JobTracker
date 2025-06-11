@@ -22,7 +22,9 @@ A simple Blazor WebAssembly app for tracking job listings — built using C# and
 ### Run the App
 
 dotnet run --project JobTracker
+
 Then open your browser to:
+
 https://localhost:5001
 
 🧪 Run the Tests
