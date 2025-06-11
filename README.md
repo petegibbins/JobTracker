@@ -38,9 +38,15 @@ JobTracker/
 └── JobTracker.sln     # Solution file
 
 🧱 Technologies
+
 Blazor WebAssembly
+
 C# 12 / .NET 9
+
 bUnit
+
 Razor Components
+
 Dependency Injection
+
 JSON data handling
