@@ -1,6 +1,6 @@
-╭────────────────────────────╮
-│ 🏏 JobTracker(Blazor WASM)│
-╰────────────────────────────╯
+
+JobTracker(Blazor WASM)
+
 
 A simple Blazor WebAssembly app for tracking job listings — built using C# and .NET 9.
 
