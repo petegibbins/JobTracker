@@ -31,16 +31,16 @@ https://localhost:5001
 dotnet test JobTracker.Tests
 
 
-```🔧 Project Structure
-
+🔧 Project Structure
+```
 JobTracker/
 ├── JobTracker/               # Blazor WebAssembly app
 │   ├── Pages/                # Razor components (JobList, etc.)
 │   ├── Services/             # Injectable services (e.g., JobService)
 │   └── wwwroot/              # Static files (CSS, AuthenticationService.js)
 ├── JobTracker.Tests/         # bUnit test project
-└── JobTracker.sln            # Solution file```
-
+└── JobTracker.sln            # Solution file
+```
 
 🧱 Technologies
 
