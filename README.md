@@ -30,15 +30,17 @@ https://localhost:5001
 🧪 Run the Tests
 dotnet test JobTracker.Tests
 
-🔧 Project Structure
-JobTracker/
 
-├── JobTracker/        # Blazor WebAssembly app
-│   └── Pages/         # Razor components
-│   └── Services/      # Injectable services (JobService)
-│   └── wwwroot/       # Static files, sample JSON
-├── JobTracker.Tests/  # bUnit test project
-└── JobTracker.sln     # Solution file
+```🔧 Project Structure
+
+JobTracker/
+├── JobTracker/               # Blazor WebAssembly app
+│   ├── Pages/                # Razor components (JobList, etc.)
+│   ├── Services/             # Injectable services (e.g., JobService)
+│   └── wwwroot/              # Static files (CSS, AuthenticationService.js)
+├── JobTracker.Tests/         # bUnit test project
+└── JobTracker.sln            # Solution file```
+
 
 🧱 Technologies
 
