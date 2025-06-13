@@ -48,7 +48,7 @@ JobTracker/
 
 Blazor WebAssembly
 
-C# 12 / .NET 9
+C# 12 / .NET 8
 
 bUnit
 
