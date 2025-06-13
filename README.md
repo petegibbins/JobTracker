@@ -16,7 +16,7 @@ A simple Blazor WebAssembly app for tracking job listings — built using C# and
 ## 🚀 Getting Started
 
 ### Prerequisites
-- [.NET SDK 9.0](https://dotnet.microsoft.com/en-us/download)
+- [.NET SDK 8.0](https://dotnet.microsoft.com/en-us/download)
 - VS Code (with C# extension), or Visual Studio 2022+
 
 ### Run the App
