@@ -3,10 +3,10 @@ JobTracker(Blazor WASM)
 
 
 A simple Blazor WebAssembly app for tracking job listings — built using C# and .NET 8.
-Used as a tutorial for WebAssembly and Octa OIDC.
+Used as a tutorial for WebAssembly and Okta OIDC.
 
 ✅ Includes:
-- Octa verification!
+- Okta verification!
 - Razor components
 - Dependency injection
 - `HttpClient` data fetching
