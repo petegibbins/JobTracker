@@ -1,7 +1,10 @@
+@attribute [Authorize]
+
 @namespace JobTracker.Pages
 @page "/jobs"
 @using JobTracker.Models
 @using JobTracker.Services
+@using Microsoft.AspNetCore.Authorization
 @inject JobService JobService
 
 <h3>Job List</h3>
