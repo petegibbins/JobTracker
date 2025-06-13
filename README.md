@@ -32,6 +32,7 @@ dotnet test JobTracker.Tests
 
 🔧 Project Structure
 JobTracker/
+
 ├── JobTracker/        # Blazor WebAssembly app
 │   └── Pages/         # Razor components
 │   └── Services/      # Injectable services (JobService)
